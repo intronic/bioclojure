@@ -1,6 +1,9 @@
 lib/
 classes/
+target/
 *_nogit
 *.swp
 bioclojure*.jar
 *~
+pom.xml
+.lein-repl-history
