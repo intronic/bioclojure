@@ -1,8 +1,7 @@
 (ns bioclojure.vcf
-  (:use [incanter core io stats charts]
-        [clojure.contrib.io :only (reader)])
-  (:require [clojure.string :as str])
-)
+  (:use [incanter core stats datasets charts io]
+        [clojure.java.io :only (reader)])
+  (:require [clojure.string :as str]))
 
 (defn- parse-string [value]
   (cond (re-matches #"[0-9]+" value)

@@ -1,8 +1,8 @@
-(defproject bioclojure "0.0.1-SNAPSHOT"
+(defproject org.clojars.intronic/bioclojure "0.0.1-SNAPSHOT"
   :description "A clojure library for the biological sciences"
-  :dependencies [[org.clojure/clojure "1.2.1"]
-                 [org.clojure/clojure-contrib "1.2.0"]
-                 [incanter "1.2.3-SNAPSHOT"]]
+  :url "org.clojars.intronic/bioclojure"
+  :dependencies [[org.clojure/clojure "1.4.0"]
+                 [incanter "1.4.1"]]
   :main bioclojure
   :aot [bioclojure])
 

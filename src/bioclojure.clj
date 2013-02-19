@@ -3,11 +3,9 @@
 ;; - lein compile
 ;; - lein uberjar
 (ns bioclojure
-  (:use [incanter core io stats charts]
-        [bioclojure.vcf]
+  (:use [bioclojure.vcf]
         [bioclojure.fastq])
-  (:gen-class)
-)
+  (:gen-class))
 
 (def help-string
   "The bioclojure command takes a list of arguments. The first one is always the 

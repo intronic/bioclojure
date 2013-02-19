@@ -6,7 +6,8 @@
 ")
 
 (ns bioclojure.fastq
-  (:use [clojure.contrib.io :only (reader)])
+  (:use [clojure.java.io :only (reader)])
+  ;(:use [clojure.contrib.io :only (reader)])
   (:require [clojure.string :as str])
 )
 
