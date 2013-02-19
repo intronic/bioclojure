@@ -1,4 +1,4 @@
-(defproject org.clojars.intronic/bioclojure "0.0.1-SNAPSHOT"
+(defproject org.clojars.intronic/bioclojure "0.0.2-SNAPSHOT"
   :description "A clojure library for the biological sciences"
   :url "org.clojars.intronic/bioclojure"
   :dependencies [[org.clojure/clojure "1.4.0"]
